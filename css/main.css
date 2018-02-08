@@ -97,9 +97,32 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body, html {
+    background: url("../img/dorm-room-hero.jpg") no-repeat center fixed;
 
+    height: 100%;
+    background-size: cover;
+}
 
+/* Hero image */
+/* .hero-image {
+    background-image: url("../img/dorm-room-hero-min.jpg");
+    
+    height: 100%;
 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+} */
+
+.hero-text {
+    text-align: center;
+    color: white;
+    font-size: 2.5em;
+    /* margin: 10em 10em; */
+    padding: 15%;
+}
 
 
 
