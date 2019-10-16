@@ -98,6 +98,96 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+#nameHeader {
+    color: white;
+    margin: 1em;
+    margin-left: 0.5em;
+    margin-top: 1.5em;
+    font-family: 'Raleway', sans-serif;
+    font-size: 7vw;
+}
+
+.typing > *{
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typingAnim 23s steps(50);
+}
+
+@keyframes typingAnim {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+.type-cursor { 
+    color:#1ec503; 
+    animation:blink .4s ease infinite;
+    opacity:0;
+    font-size: 3vw;
+}
+
+ @keyframes blink {
+ 	100% { opacity:1; }
+ }
+
+#demo {
+    margin-left: 1em;
+    color: white;
+    font-size: 3vw;
+    font-family: 'Roboto', sans-serif;
+/*    color: black;*/
+}
+
+#roleLink {
+    text-decoration: none;
+}
+
+#roleLink :hover {
+    color: #1ec503;
+}
+
+body {
+    background-color: black;
+}
+
+#whoAmI, .rolePageBody {
+    font-size: 3vw;
+    color:white;
+    margin-left: 1em;
+    font-family: 'Roboto', sans-serif;
+}
+
+#linkedin {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    margin-left: 1em;
+    margin-bottom: 1em;
+}
+
+#github {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    margin-left: 5em;
+    margin-bottom: 1em;
+}
+
+/* Role Page styles below */
+.rolePageHeader {
+    color: white;
+}
+
+.rolePageHeader {
+    color: white;
+    margin: 1em;
+    margin-left: 0.5em;
+    margin-top: 1.5em;
+    font-family: 'Raleway', sans-serif;
+    font-size: 4vw;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
