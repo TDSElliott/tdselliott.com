@@ -18,7 +18,7 @@ function typeWriter() {
         var wrapper = document.createElement('a');
         wrapper.setAttribute("href", links[turn]);
         wrapper.setAttribute("id", "roleLink");
-        wrapper.setAttribute("target", "_blank");
+//        wrapper.setAttribute("target", "_blank");
         el.parentNode.insertBefore(wrapper, el);
         wrapper.appendChild(el);
     }
